@@ -1,0 +1,33 @@
+.container-main{
+  width: 100%;
+  padding-top:5px;
+  margin-top:10vh;
+}
+
+.gallery-grid{
+  width:100%;
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+  grid-gap: 1%;
+  padding:0px;
+  justify-content: center;
+  margin:0.5vh auto;
+}
+
+.cell-div{
+  width: 60%;
+  height: 100%;
+  margin: 0px auto;
+  padding:0px; 
+}
+
+.cell-image{
+  width:100%;
+  height:80%;
+}
+
+.cell-filename{
+  font-size: 2.5vh;
+  padding: 0px;
+  margin: 0px;
+}
